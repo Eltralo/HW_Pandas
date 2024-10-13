@@ -10,7 +10,7 @@
 5. Результат
 6. Выводы
 
-Описание проекта
+
 В приложенных файлах вы увидите данные по прохождению студентами тестов на образовательной платформе. Такие данные могут быть использованы для построения персонализированных ИИ-ассистентов для поддержки обучения студента. На текущем этапе сосредоточимся на начальном этапе — сборе и подготовке данных.
 Для выполнения задания вам необходимы файлы train.csv, lectures.csv, questions.csv.
 
@@ -62,7 +62,8 @@ questions.csv: metadata for the questions posed to users.
 * correct_answer: the answer to the question. Can be compared with the train user_answer column to check if the user was right.
 * part: the relevant section of the TOEIC test.
 * tags: one or more detailed tag codes for the question. The meaning of the tags will not be provided, but these codes are sufficient for clustering the questions together.
-* lectures.csv: metadata for the lectures watched by users as they progress in their education.
+
+lectures.csv: metadata for the lectures watched by users as they progress in their education.
 * lecture_id: foreign key for the train/test content_id column, when the content type is lecture (1).
 * part: top level category code for the lecture.
 * tag: one tag codes for the lecture. The meaning of the tags will not be provided, but these codes are sufficient for clustering the lectures together.
@@ -75,11 +76,7 @@ questions.csv: metadata for the questions posed to users.
 Анализ данных.
 Очистка данных.
 Исследование данных (качество визуализации, наличие идей, гипотез, комментариев).
-Генерация признаков.
-Отбор признаков.
-Преобразование признаков.
-Обучение модели
-Проверка метрики
+
 ⬆️к оглавлению
 
 **Результат:**
